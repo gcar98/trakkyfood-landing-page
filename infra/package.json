@@ -1,0 +1,30 @@
+{
+  "name": "trakkyfood-landing-page-infra",
+  "version": "1.0.0",
+  "description": "AWS CDK infrastructure for TrakkyFood Landing Page Amplify app",
+  "main": "bin/app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "amplify"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cdk-lib": "2.171.1",
+    "constructs": ">=10.0.0 <11.0.0",
+    "@aws-cdk/aws-amplify-alpha": "2.171.1-alpha.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  }
+}
+

@@ -1,0 +1,27 @@
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Compiled JavaScript files
+bin/
+*.js
+*.js.map
+*.d.ts
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
