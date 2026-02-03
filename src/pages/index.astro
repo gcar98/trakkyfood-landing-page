@@ -38,30 +38,7 @@ const faqData = [
   title="TrakkyFood - Find Food Trucks Near You in Real Time"
   description="TrakkyFood is the ultimate food truck locator. Discover real-time locations, daily schedules, and the best street food in your area."
 >
-  <Header />
-  <Hero />
-  <HowItWorks />
-  <Features />
-  <TargetAudience />
-  <LocationTags />
-  <FAQ client:visible />
-  <CTA />
-  <Footer />
-
-  <!-- FAQPage Structured Data -->
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: faqData.map((item) => ({
-        '@type': 'Question',
-        name: item.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: item.answer,
-        },
-      })),
-    })}
-  />
+  <div class="min-h-screen bg-off-white text-primary flex items-center justify-center">
+    <h1 class="text-6xl md:text-8xl font-bold tracking-tight">Coming Soon</h1>
+  </div>
 </Layout>
